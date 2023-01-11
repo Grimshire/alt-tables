@@ -1,0 +1,59 @@
+/* Copyright Adam Turner 2023 */
+
+alt-table {
+  width: contents;
+  display: inline-block;
+}
+
+alt-table-body {
+   display: grid;
+   grid-auto-flow: column;
+   border-top: 2px solid black;
+   border-left: 2px solid black;
+   border-right: 2px solid black;   
+}
+
+alt-column {
+  display: grid;
+  grid-auto-flow: row;  
+}
+
+alt-table-body-rows {
+   display: grid;
+   grid-auto-flow: row;
+   border-top: 2px solid black;
+   border-left: 2px solid black;
+   border-right: 2px solid black;   
+}
+
+alt-row {
+  display: grid;
+  grid-auto-flow: column;  
+}
+
+cell-header {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+cell-body {
+  border: 1px solid gray;
+  text-align: center;
+}
+
+alt-table-footer {  
+  color: gray;   
+  text-align: center;
+  width: auto;
+  display: block;
+  border: 2px solid black;
+}
+
+alt-table-header {  
+  color: black;   
+  text-align: center;
+  width: auto;
+  display: block;
+  border: 2px solid black;
+}
